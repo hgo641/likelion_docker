@@ -4,7 +4,7 @@ name: Publish to Docker Hub
 
 on:
  push:
-   branches: [ main ]
+   branches: [ master ]
    # main 브랜치에 push 될 때 실행
 
 workflow_dispatch:
