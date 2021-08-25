@@ -15,8 +15,7 @@ jobs:
    steps:
    # 실행할 작업들
      - name: Checkout Repository
-       #uses: actions/checkout@v2
-     - uses: secrethub/actions/env-export@v0.1.0
+       uses: actions/checkout@v2
        # 이름이 Checkout Repositor이고
        # actions/checkout 이라는 미리 만들어진 액션 실행
 
